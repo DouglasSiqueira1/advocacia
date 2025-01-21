@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de header e sidebar responsivos</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <button class="menu-button" aria-expanded="false" aria-controls="sidebar-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <section class="flex-section">
+    <img src="imgs\equipe.png"></div>
+    <div><h1>"Soluções jurídicas sob medida para você."</h1></div>
+  </section>
+  <div class="contato">
+    <div>
+      <a href="#">"Fale com a gente agora"</a>
+    </div>
+  </div>
+  <main>
+    <section>
+      <h2>Sobre nós</h2>
+      <p>Nossa História
+
+      Fundado por um grupo de advogados experientes e comprometidos com a justiça, o Escritório Mourao se destaca pelo atendimento personalizado e pela excelência em soluções jurídicas. Com uma trajetória sólida, nossa missão é oferecer serviços de alta qualidade, focados na defesa dos interesses de nossos clientes e na busca pela resolução eficiente de seus conflitos.</p>
+    </section>
+    <section>
+      <h2> Especialidades</h2>
+      <div class="flex-especialidades">
+        <div>
+          <img src="imgs/icons/especialidade.png"> 
+          <p> Trabalhista </p>
+        </div>
+        <div>
+          <img src="imgs/icons/especialidade.png"> 
+          <p> Direito Civil </p>
+        </div>
+        <div>
+          <img src="imgs/icons/especialidade.png"> 
+          <p> Penal </p>
+        </div>
+        <div>
+          <img src="imgs/icons/especialidade.png"> 
+          <p> Empresarial </p>
+        </div>
+      </div>
+
+
+    </section>
+    <section>
+      <h2> Testemunhos </h2>
+      <div  id="testemunhos" >
+        <div class="testimonial">
+          <div class="testimonial-photo">
+            <img src="imgs/perfil.jpeg" alt="Foto do usuário">
+          </div>
+          <div class="testimonial-name">Nome do Usuário</div>
+          <div class="testimonial-comment">
+            Este é o comentário do usuário. Adicione aqui o texto do depoimento.
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-photo">
+            <img src="imgs/perfil.jpeg" alt="Foto do usuário">
+          </div>
+          <div class="testimonial-name">Nome do Usuário</div>
+          <div class="testimonial-comment">
+            Este é o comentário do usuário. Adicione aqui o texto do depoimento.
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-photo">
+            <img src="imgs/perfil.jpeg" alt="Foto do usuário">
+          </div>
+          <div class="testimonial-name">Nome do Usuário</div>
+          <div class="testimonial-comment">
+            Este é o comentário do usuário. Adicione aqui o texto do depoimento.
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contato">
+      <div>
+        <a href="#">"Fale com agente agora"</a>
+      </div>
+    </div>
+
+    <section class="secao_contato">
+      <h2>Contato</h2>
+      <p>Entre em contato conosco:</p>
+      <ul>
+        <li><i class="fas fa-phone"></i> Telefone: (11) 1234-5678</li>
+        <li><i class="fas fa-envelope"></i> Email: contato@meusite.com</li>
+      </ul>
+
+
+    </section>
+    <section>
+      <h2> Endereço </h2>
+      <p>Rua das Flores, 102
+        Bairro Jardim Primavera
+        Cidade: Belo Horizonte
+        Estado: Minas Gerais
+        CEP: 30130-050
+      Brasil</p>
+      <img src="imgs/fachada.jpg">
+
+
+    </section>
+    <section class="horario">
+      <h2> Horario de Funcionamento </h2>
+      <ul>
+        <ul>
+          <li><p>Segunda-feira</p><p>08:00 às 18:00</p></li>
+          <li><p>Terça-feira</p><p>08:00 às 18:00</p></li>
+          <li><p>Quarta-feira</p><p>08:00 às 18:00</p></li>
+          <li><p>Quinta-feira</p><p>08:00 às 18:00</p></li>
+          <li><p>Sexta-feira</p><p>08:00 às 18:00</p></li>
+        </ul>
+
+      </ul>
+      
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>Todos os direitos reservados</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/5511123456789" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
